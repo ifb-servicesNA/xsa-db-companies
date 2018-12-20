@@ -1,0 +1,9 @@
+namespace "xsa-db-companies".companies;
+in package "xsa-db-companies.companies";
+
+using "xsa-db-employees.employees::employee" as employee;
+using "xsa-db-organisations.organisations::organisations" as org;
+
+extend entity employee.person with {
+	team: association to org.entities;
+}
