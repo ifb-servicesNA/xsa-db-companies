@@ -12,11 +12,14 @@ standalone modules mentioned below.
 
 Also checkout the [/companies/package.json](/companies/package.json) of this module.
 It references the child modules with specific versions, or with any version string compatible with npm semVer standards. 
+
+For eg: in the below dependencies section, companies db module requires any version of employees module between 3.12.8 and 3.14.9.
+Whereas, the organisations module can be anything less than 4.3.7
 ```json
 {
 	"dependencies":{
-		"employees":"3.12.8",		
-		"organisations":"4.3.7"		
+		"employees":"3.12.8-3.14.9",		
+		"organisations":"<4.3.7"		
 	}
 }
 ```
