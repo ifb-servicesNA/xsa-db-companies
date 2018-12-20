@@ -1,1 +1,4 @@
+/**
+* package to hold the extensions being done in this parent module
+*/
 package "xsa-db-companies".companies;

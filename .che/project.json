@@ -1,1 +1,1 @@
-{"type":"mta","builders":{"default":"mtabuilder","configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"hdbInactiveFiles\":{\"inactiveFileList\":[]}}"]},"mixinTypes":[]}
+{"type":"mta","builders":{"default":"mtabuilder","configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"hdbInactiveFiles\":{\"inactiveFileList\":[\"/xsa-db-companies/companies/src/AddPerson.hdbprocedure\",\"/xsa-db-companies/companies/src/EmployeeExtension.hdbcds\",\"/xsa-db-companies/companies/src/extensions.hdbcds\"]}}"]},"mixinTypes":[]}

@@ -1,3 +1,6 @@
+/**
+* demonstrating extension of a child table
+*/
 namespace "xsa-db-companies".companies;
 in package "xsa-db-companies.companies";
 

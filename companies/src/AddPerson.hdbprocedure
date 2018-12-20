@@ -1,3 +1,7 @@
+/*
+* procedure demonstrating consumption of a child table 
+*
+*/
 PROCEDURE "xsa-db-companies.companies::AddPerson"( 
 	in id integer,
 	in name nvarchar(50),
