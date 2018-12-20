@@ -1,0 +1,11 @@
+{
+    "name": "companies",
+    "dependencies": {
+    	"employees": "1.0.0",
+    	"organisations":"1.0.0",
+        "@sap/hdi-deploy": "3.7.0"
+    },
+    "scripts": {
+        "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+    }
+}

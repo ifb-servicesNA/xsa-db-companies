@@ -1,0 +1,16 @@
+ID: xsa-db-companies
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: companies
+   type: hdb
+   path: companies
+   requires:
+    - name: hdi_companies
+
+resources:
+ - name: hdi_companies
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
