@@ -1,0 +1,17 @@
+PROCEDURE "xsa-db-companies.companies::AddPerson"( 
+	in id integer,
+	in name nvarchar(50),
+	in age integer
+)
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   AS
+BEGIN
+   /*************************************
+       Write your procedure logic 
+   *************************************/
+   
+   insert into "xsa-db-employees.employees::employee.person"("id","name","age")
+   values (:id,:name,:age);
+END
