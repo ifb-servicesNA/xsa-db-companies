@@ -29,4 +29,4 @@ the parent is upgraded too.
 PS: For this repo to build correctly, the child modules should be published to a packge manager 
 and accessible from the tool used for building this db module (for ex, webide).
 
-PPS: Testcases can be defined individually for each child repos objects and treated as a blacbox from the parent's perspective.
+PPS: Testcases can be defined individually for each child repo's objects and treated as a blackbox from the parent's perspective.
