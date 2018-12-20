@@ -6,8 +6,8 @@ standalone modules mentioned below.
 
 | imported module | to demonstrate |
 |-----|-----|
-|employees| table extensions|
-| organisations| procedure calls|
+|[employees](https://github.com/ifb-servicesNA/xsa-db-employees)| table extensions|
+| [organisations](https://github.com/ifb-servicesNA/xsa-db-organisations)| procedure calls|
 
 
 Also checkout the [/companies/package.json](/companies/package.json) of this module.
